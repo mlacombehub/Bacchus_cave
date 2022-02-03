@@ -2,14 +2,14 @@
 #include <OneWire.h>
 
 /* change ssid and password according to yours WiFi*/
-const char* ssid     = "OnePlus 7";
-const char* password = "PikachuLicorne92";
+const char* ssid     = "";
+const char* password = "";
 
 /*
  * This is the IP address of your PC
  * [Wins: use ipconfig command, Linux: use ifconfig command]
 */
-const char* host = "192.168.180.204";
+const char* host = "192.168.";
 const int port = 8088;
 
 OneWire  ds(4);  // on pin 10 (a 4.7K resistor is necessary)
